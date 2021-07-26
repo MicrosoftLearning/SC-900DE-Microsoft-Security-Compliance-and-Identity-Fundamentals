@@ -1,35 +1,42 @@
-# INF99X: Sample Course
+﻿# SC-900: Microsoft Grundlagen zu Sicherheit, Compliance und Identität
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+Dieses Repository enthält Demoskripts und Lab-Anweisungen für **SC-900T00: Microsoft Grundlagen zu Sicherheit, Compliance und Identität**.  Sowohl die Demoskripts als auch die Labs setzen den Zugriff auf den vorkonfigurierten WWL M365 Enterprise 2019 SPE_E5-Mandanten voraus, der über einen autorisierten Lab-Hoster (ALH) verfügbar ist, sowie die Verwendung eines Azure-Abonnements mit einem Azure Pass.  Mit dem Azure Pass wird sichergestellt, dass das Azure-Abonnement mit denselben Anmeldeinformationen eingerichtet wird wie der vom ALH bereitgestellte Microsoft 365-Mandant (d. h., der Azure Pass wird mit denselben Anmeldeinformationen wie der Microsoft 365-Mandant eingelöst).  So können Sie nahtloser zwischen Microsoft 365 und Azure umschalten.  Demoskripts und Lab-Anleitungen können möglicherweise mit dem eigenen Microsoft 365-Mandanten und Azure-Abonnement eines Benutzers ausgeführt werden. Dies kann jedoch nicht garantiert werden, da einige Funktionen mit dem persönlichen Abonnement eines Benutzers möglicherweise nicht verfügbar sind.
 
-## What are we doing?
+Den Benutzerschnittstellen für Microsoft 365 und Azure werden ständig aktualisiert.  Bei diesen Änderungen werden alle Anstrengungen unternommen, die Schritte in den Demos und Labs entsprechend zu aktualisieren, aber es kommt gelegentlich vor, dass die in den Labs/Demos beschriebene Benutzeroberfläche von der des tatsächlichen Mandanten abweicht. 
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- Die Demos sind dazu gedacht, von Kursleitern verwendet zu werden, um im Kurs die Funktionen in einer Live-Umgebung zu demonstrieren.  
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+- Die Labs sind als Ergänzung zu den Kursinhalten verfügbar. Diese Labs sind für den Fall gedacht, dass Lernpartner den Kursteilnehmern die Umgebung nach dem eintägigen Kurs für einen längeren Zeitraum zur Verfügung stellen können. Während des Kurses reicht die Zeit nämlich nicht dafür aus, dass die Kursleiter die Kursinhalte vermitteln und die Teilnehmer die Labs bearbeiten. Die Labs sind eigenständige Labs (d. h. es besteht keine Abhängigkeit zwischen Labs).
 
-## How should I use these files relative to the released MOC files?
+- **Sind Sie ein MCT?** - Lesen Sie unseren [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide-DE/)
 
-- The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
 
-- These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
+## Was tun wir?
 
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
+- Um diesen Kurs zu unterstützen, müssen wir häufige Änderungen an den Kursinhalten vornehmen, um sie an die verwendeten Azure-Dienste anzupassen.  Wir veröffentlichen die Labanweisungen und Labdateien auf GitHub, um offene Beiträge zwischen den Kursautoren und MCTs zu ermöglichen und die Inhalte an aktuelle Änderungen in der Azure-Plattform anzupassen.
 
-## What about changes to the student handbook?
+- Wir hoffen, dass dies ein Gefühl der Zusammenarbeit in den Labs hervorruft, wie wir es noch nie zuvor hatten. Wenn sich Azure ändert und Ihnen dies während eines Live-Vortrags auffällt, können Sie direkt im Lab-Quellcode eine Verbesserung vornehmen.  Helfen Sie Ihren MCT-Kollegen.
 
-- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
+## Wie soll ich diese Dateien in Bezug auf die freigegebenen MOC-Dateien verwenden?
 
-## How do I contribute?
+- Das Handbuch für Kursleiter und die PowerPoints werden weiterhin Ihre Hauptquelle für das Unterrichten der Kursinhalte sein.
 
-- Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
+- Diese Dateien auf GitHub können in Verbindung mit dem Kursteilnehmer-Handbuch verwendet werden. Sie befinden sich jedoch in GitHub als zentrales Repository, sodass MCTs und Kursautoren eine gemeinsame Quelle für die neuesten Lab-Dateien haben.
 
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- Kursleiter sollten vor jedem Unterricht GitHub auf Änderungen überprüfen, die möglicherweise zur Unterstützung der neuesten Azure-Dienste vorgenommen wurden, und die neuesten Dateien für den Unterricht abrufen.
 
-## Notes
+## Was ist mit Änderungen am Kursteilnehmerhandbuch?
 
-### Classroom Materials
+- Wir werden das Kursteilnehmerhandbuch vierteljährlich überprüfen und bei Bedarf über die regulären MOC-Veröffentlichungskanäle aktualisieren.
 
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+## Wie trage ich bei?
+
+- Jeder MCT kann eine Pull Request an den Code oder Inhalte im GitHub-Repository senden. Microsoft und der Kursautor prüfen den Inhalt und den Lab-Code und nehmen nach Bedarf Änderungen vor.
+
+- Sie können Fehler, Änderungen, Verbesserungen und Vorschläge einreichen.  Sie haben vor uns eine neue Azure-Funktion gefunden?  Reichen Sie eine neue Demo ein!
+
+## Anmerkungen
+
+### Unterrichtsmaterialien
+
+Es wird dringend empfohlen, dass MCTs und Partner auf diese Materialien zugreifen und sie den Kursteilnehmern separat zur Verfügung stellen.  Wenn Sie Kursteilnehmer direkt auf GitHub verweisen, um im Rahmen eines laufenden Kurses auf Lab-Schritte zuzugreifen, müssen sie im Rahmen des Kurses auf eine weitere Benutzeroberfläche zugreifen, was zu Verwirrung führen kann. Eine Erklärung für den Kursteilnehmer, warum er separate Lab-Abweisungen erhält, kann die Natur einer sich ständig ändernden cloudbasierten Schnittstelle und Plattform hervorheben. Die Microsoft Learning-Unterstützung für den Zugriff auf Dateien auf GitHub und die Unterstützung für die Navigation auf der GitHub-Website ist auf MCTs beschränkt, die diesen Kurs unterrichten.
