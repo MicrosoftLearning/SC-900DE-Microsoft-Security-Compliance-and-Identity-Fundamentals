@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff'
     module: 'Modul 2, Lektion 3: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Erkunden der Zugriffsverwaltungsfunktionen von Azure AD'
