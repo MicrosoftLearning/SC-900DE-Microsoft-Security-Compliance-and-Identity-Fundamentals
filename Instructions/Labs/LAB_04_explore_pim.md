@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management'
     module: 'Modul 2, Lektion 4: Beschreiben der Identitätsschutz- und Governancefunktionen von Azure AD: Beschreiben von Azure Identity Protection'
