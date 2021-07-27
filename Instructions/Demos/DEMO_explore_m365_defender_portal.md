@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Das Microsoft 365 Defender-Portal'
     module: 'Modul 3, Lektion 5: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Sicherheitsverwaltungsfunktionen von Microsoft 365'
