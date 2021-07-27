@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure Policy'
     module: 'Modul 4, Lektion 5: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben von Azure Policy'
