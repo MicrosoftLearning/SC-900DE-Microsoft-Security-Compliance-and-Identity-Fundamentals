@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Bedingter Zugriff in Azure Active Directory'
     module: 'Modul 2, Lektion 3: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Erkunden der Zugriffsverwaltungsfunktionen von Azure AD'
