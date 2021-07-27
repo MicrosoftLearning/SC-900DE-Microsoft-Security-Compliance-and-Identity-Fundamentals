@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden des Core eDiscovery-Workflows'
     module: 'Modul 4, Lektion 4: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der eDiscovery- und Überwachungsfunktionen in Microsoft 365'
