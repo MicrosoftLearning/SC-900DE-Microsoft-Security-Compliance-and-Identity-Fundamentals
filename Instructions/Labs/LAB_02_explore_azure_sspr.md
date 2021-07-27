@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung'
     module: 'Modul 2, Lektion 2: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Beschreiben der verschiedenen Authentifizierungsmethoden von Azure AD'
