@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden von Microsoft Intune'
     module: 'Modul 3, Lektion 6: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Endpunktsicherheit mit Microsoft Intune'
