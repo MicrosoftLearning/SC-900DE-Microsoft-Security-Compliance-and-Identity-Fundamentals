@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden von Vertraulichkeitsbezeichnungen in Microsoft 365'
     module: 'Modul 4, Lektion 2: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Funktionen für Informationsschutz und Governance in Microsoft 365'
