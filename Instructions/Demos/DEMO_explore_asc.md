@@ -1,6 +1,6 @@
 ﻿---
 Demo:
-    title: Azure Security Center'
+    title: 'Azure Security Center'
     module: 'Modul 3, Lektion 2: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure'
 ---
 
@@ -40,7 +40,7 @@ In dieser Demo gehen Sie das Azure Security Center durch und zeigen, wie der Sic
 
 1. Sie befinden sich wieder auf der Übersichtsseite von Security Center.  Wählen Sie auf der Hauptseite **Einhaltung gesetzlicher Bestimmungen** aus. (Beachten Sie, dass dies der Auswahl von „Recommendations“ im linken Navigationsbereich der Startseite von Security Center entspricht.)
     1. Auf der Seite „Einhaltung gesetzlicher Bestimmungen“ finden Sie eine Liste mit Compliancekontrollen.  Unter jeder Kontrolle befinden sich eine Reihe von Bewertungen, die auf dem Azure-Sicherheitsvergleichstest basieren. Dieser liefert Empfehlungen dazu, wie Sie Ihre Cloudlösungen auf Azure schützen können.
-    1. Wählen Sie **IM** aus.** Identitätsverwaltung** und dann **IM.4 Verwenden stärkerer Authentifizierungssteuerungen für den gesamten Azure Active Directory-basierten Zugriff** aus.  In der Liste werden Aktionen zur Verbesserung der Compliancesituation aufgeführt, für die der Kunde verantwortlich ist.
+    1. Wählen Sie **IM** aus. **Identitätsverwaltung** und dann **IM.4 Verwenden stärkerer Authentifizierungssteuerungen für den gesamten Azure Active Directory-basierten Zugriff** aus.  In der Liste werden Aktionen zur Verbesserung der Compliancesituation aufgeführt, für die der Kunde verantwortlich ist.
     1. Wählen Sie das **X** oben rechts auf dem Bildschirm aus, um die Seite zu schließen und zur Seite für die Einhaltung gesetzlicher Bestimmungen zurückzukehren.
     1. Wählen Sie das **X** oben rechts auf dem Bildschirm aus, um zur Übersichtsseite zurückzukehren.
 
