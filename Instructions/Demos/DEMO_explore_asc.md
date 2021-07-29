@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure Security Center'
     module: 'Modul 3, Lektion 2: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure'

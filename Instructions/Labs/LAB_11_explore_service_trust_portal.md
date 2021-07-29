@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden des Service Trust Portals'
     module: 'Modul 4, Lektion 1: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Microsoft-Complianceverwaltungsfunktionen'

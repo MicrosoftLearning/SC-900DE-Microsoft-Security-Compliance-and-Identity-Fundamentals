@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden von Microsoft Cloud App Security'
     module: 'Modul 3, Lektion 4: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben des Bedrohungsschutzes mit Microsoft 365 Defender'

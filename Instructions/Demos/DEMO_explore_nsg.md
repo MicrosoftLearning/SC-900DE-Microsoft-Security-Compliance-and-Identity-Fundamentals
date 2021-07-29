@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)'
     module: 'Modul 3, Lektion 1: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der allgemeinen Sicherheitsfunktionen in Azure'

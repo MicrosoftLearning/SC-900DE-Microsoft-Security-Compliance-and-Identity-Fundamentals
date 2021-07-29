@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Self-Service-Kennwortzurücksetzung von Azure Active Directory'
     module: 'Modul 2, Lektion 2: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Beschreiben der verschiedenen Authentifizierungsmethoden von Azure AD'

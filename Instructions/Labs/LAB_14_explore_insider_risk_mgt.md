@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Erkunden des Insider-Risikomanagements in Microsoft 365'
     module: 'Modul 4, Lektion 3: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Funktionen für Insider-Risiken in Microsoft 365'
