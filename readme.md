@@ -1,4 +1,4 @@
-﻿# SC-900: Microsoft Grundlagen zu Sicherheit, Compliance und Identität
+# SC-900: Microsoft Grundlagen zu Sicherheit, Compliance und Identität
 
 Dieses Repository enthält Demoskripts und Lab-Anweisungen für **SC-900T00: Microsoft Grundlagen zu Sicherheit, Compliance und Identität**.  Sowohl die Demoskripts als auch die Labs setzen den Zugriff auf den vorkonfigurierten WWL M365 Enterprise 2019 SPE_E5-Mandanten voraus, der über einen autorisierten Lab-Hoster (ALH) verfügbar ist, sowie die Verwendung eines Azure-Abonnements mit einem Azure Pass.  Mit dem Azure Pass wird sichergestellt, dass das Azure-Abonnement mit denselben Anmeldeinformationen eingerichtet wird wie der vom ALH bereitgestellte Microsoft 365-Mandant (d. h., der Azure Pass wird mit denselben Anmeldeinformationen wie der Microsoft 365-Mandant eingelöst).  So können Sie nahtloser zwischen Microsoft 365 und Azure umschalten.  Demoskripts und Lab-Anleitungen können möglicherweise mit dem eigenen Microsoft 365-Mandanten und Azure-Abonnement eines Benutzers ausgeführt werden. Dies kann jedoch nicht garantiert werden, da einige Funktionen mit dem persönlichen Abonnement eines Benutzers möglicherweise nicht verfügbar sind.
 
@@ -31,7 +31,7 @@ Den Benutzerschnittstellen für Microsoft 365 und Azure werden ständig aktuali
 
 ## Wie trage ich bei?
 
-- Jeder MCT kann eine Pull Request an den Code oder Inhalte im GitHub-Repository senden. Microsoft und der Kursautor prüfen den Inhalt und den Lab-Code und nehmen nach Bedarf Änderungen vor.
+- MCTs können Pull-Requests für den Code oder die Inhalte im GitHub-Repository stellen. Microsoft und die Kursautoren werden das Feedback sichten und die Änderungen am Labcode und den Inhalten bei Bedarf einfügen.
 
 - Sie können Fehler, Änderungen, Verbesserungen und Vorschläge einreichen.  Sie haben vor uns eine neue Azure-Funktion gefunden?  Reichen Sie eine neue Demo ein!
 

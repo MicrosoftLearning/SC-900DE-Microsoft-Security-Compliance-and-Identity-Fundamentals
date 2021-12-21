@@ -23,15 +23,15 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
-1. Sie befinden sich nun im Azure-Portal.  Wählen Sie unter „Azure-Dienste“ die Option **Richtlinie** aus. Dadurch wird die Azure Policy-Homepage geöffnet, die eine Dashboard-Ansicht bereitstellt.  Der Geltungsbereich, für den Informationen angezeigt werden, richtet sich nach dem im Rahmen dieses Labs verwendeten Azure Pass.   Beachten Sie die im Dashboard verfügbaren Informationen.
+1. Sie befinden sich nun im Azure-Portal.  Geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Richtlinie** ein, und wählen Sie dann **Richtlinie** aus den Suchergebnissen aus. Dadurch wird die Azure Policy-Homepage geöffnet, die eine Dashboard-Ansicht bereitstellt.  Der Geltungsbereich, für den Informationen angezeigt werden, richtet sich nach dem im Rahmen dieses Labs verwendeten Azure Pass.   Beachten Sie die im Dashboard verfügbaren Informationen.
 
-1. Dort befindet sich das Element „ASC-Standard“ (Azure Security Center), dessen Geltungsbereich „Azure Pass-Förderung“ lautet.   Wählen Sie **ASC-Standard** aus.
+1. Dort gibt es ein Element mit dem Namen „ASC-Standard“ (ASC bezieht sich auf Azure Security Center, das jetzt als Microsoft Defender for Cloud bezeichnet wird), dessen Bereich „Azure Pass-Förderung“ ist.   Wählen Sie **ASC-Standard** aus.
 
-1. Oben auf der Seite unter „Essentials“ werden der Name, die Beschreibung und andere wesentliche Informationen angezeigt.  Lesen Sie die Beschreibung (bewegen Sie den Mauszeiger über die Beschreibung).  
+1. Oben auf der Seite unter „Essentials“ werden der Name, die Beschreibung und andere wesentliche Informationen angezeigt.  Lesen Sie die Beschreibung (bewegen Sie den Mauszeiger über die Beschreibung). HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender for Cloud umbenannt wurde.
 
-1. Beachten Sie, dass die im Dashboard bereitgestellten Informationen entsprechend dem ausgewählten Element – der Initiativendefinition von „ASC-Standard“ – aktualisiert werden.  Wie Sie bereits erfahren haben, ist eine Initiativendefinition eine Sammlung von Richtliniendefinitionen, die auf das Erreichen eines einzigen übergeordneten Ziels ausgerichtet sind.  In diesem Fall beziehen sich die Richtlinien auf den Compliancezustand von Azure Security Center.  Informationen können nach Gruppe, Richtlinien, nicht konformen Ressourcen oder Ereignissen angezeigt werden.
+1. Beachten Sie, dass die im Dashboard bereitgestellten Informationen entsprechend dem ausgewählten Element – der Initiativendefinition von „ASC-Standard“ – aktualisiert werden.  Wie Sie bereits erfahren haben, ist eine Initiativendefinition eine Sammlung von Richtliniendefinitionen, die auf das Erreichen eines einzigen übergeordneten Ziels ausgerichtet sind. Informationen können nach Gruppe, Richtlinien, nicht konformen Ressourcen oder Ereignissen angezeigt werden.
 
-1. Kehren Sie zur Policy-Homepage zurück. Wählen Sie dazu in der oberen linken Ecke des Bildschirms die Option **Richtlinie** aus, die sich oberhalb von „ASC-Standard“ befindet.
+1. Wählen Sie das **X** rechts oben auf der Seite aus, um die ASC-Seite zu verlassen und zur Startseite für Richtlinien zurückzukehren.
 
 1. Wählen Sie im linken Navigationsbereich **Erste Schritte** aus.  Hier können Sie die verschiedenen Optionen anzeigen, einschließlich der Option zum Durchsuchen integrierter Richtlinien und zum Zuweisen von Richtlinien im großen Stil. Außerdem können Sie benutzerdefinierte Richtliniendefinitionen für Ihre Umgebung erstellen, Richtlinienzuweisungen empfehlen und vieles mehr.
 

@@ -18,7 +18,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Sie befinden sich nun auf der Seite „Richtlinie“. Beachten Sie die im Dashboard verfügbaren Informationen.
 
-1. Wählen Sie im linken Navigationsbereich unter „Erstellung“ die Option **Zuweisungen** aus.  Sie sehen, dass bereits eine Richtlinienzuweisung vorhanden ist. Wählen Sie **ASC-Standard** aus.  Beachten Sie das Beschreibungsfeld. Dies ist der Standardsatz von Richtlinien, der von Azure Security Center überwacht wird. Er wurde im Rahmen des Onboardings für Security Center automatisch zugewiesen. Die Standardzuweisung enthält nur Überwachungsrichtlinien. Weitere Informationen finden Sie unter https://aka.ms/ascpolicies-ger.  Wählen Sie das **X** rechts oben auf der Seite aus, um zur Seite „Richtlinienzuweisungen“ zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich unter „Erstellung“ die Option **Zuweisungen** aus.  Sie sehen, dass bereits eine Richtlinienzuweisung vorhanden ist. Wählen Sie **ASC-Standard** aus.  Überprüfen Sie das Beschreibungsfeld. HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender for Cloud umbenannt wurde.  Wählen Sie das **X** rechts oben auf der Seite aus, um zur Seite „Richtlinienzuweisungen“ zurückzukehren.
 
 1. Wählen Sie oben auf der Seite **Richtlinie zuweisen** aus
 
