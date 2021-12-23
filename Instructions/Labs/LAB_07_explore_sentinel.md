@@ -1,20 +1,20 @@
 ---
 lab:
-    title: 'Erkunden von Azure Sentinel'
-    module: 'Modul 3, Lektion 3: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Sicherheitsfunktionen von Azure Sentinel'
+    title: 'Erkunden von Microsoft Sentinel'
+    module: 'Modul 3, Lektion 3: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel'
 ---
 
 
-# Lab: Erkunden von Azure Sentinel 
+# Lab: Erkunden von Microsoft Sentinel 
 
 ## Labszenario
-In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz durch.  Zudem richten Sie die Berechtigungen ein, um den Zugriff auf die Ressourcen sicherzustellen, die zur Unterstützung von Azure Sentinel bereitgestellt werden.  Nach Abschluss dieser grundlegenden Einrichtung gehen Sie die Schritte zum Herstellen eine Verbindung von Sentinel mit Ihren Datenquellen durch. Sie verwenden dabei integrierte Analysen, um über verdächtige Aktivitäten benachrichtigt zu werden. Als Letztes erkunden Sie die Automatisierungsfunktion.  
+In diesem Lab gehen Sie den Prozess des Erstellens einer Microsoft Sentinel-Instanz durch.  Außerdem richten Sie die Berechtigungen ein, um Zugriff auf die Ressourcen sicherzustellen, die zur Unterstützung von Microsoft Sentinel bereitgestellt werden.  Nachdem diese grundlegende Einrichtung abgeschlossen ist, werden Sie die Schritte zum Verbinden von Microsoft Sentinel mit Ihren Datenquellen und die Verwendung integrierter Analysen durchlaufen, damit Sie über alle verdächtigen Aktivitäten benachrichtigt werden. Schließen werden Sie die Automatisierungsfunktion erkunden.  
 
   
 
 **Geschätzte Dauer**: 30–45 Minuten
 
-#### Aufgabe 1:  Erstellen einer Azure Sentinel-Instanz
+#### Aufgabe 1:  Erstellen Sie eine Microsoft Sentinel-Instanz.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.
 
@@ -26,11 +26,11 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 3. Wählen Sie in der oberen linken Ecke des Bildschirms neben dem Text „Microsoft Azure“ das Symbol „Portalmenü anzeigen“ (die drei horizontalen Linien werden auch als Hamburgersymbol bezeichnet) und dann **Alle Dienste** aus.  
 
-4. Geben Sie **Sentinel** in das Feld „Dienste filtern“ ein. Wählen Sie dann **Azure Sentinel** aus der Liste aus.
+4. Geben Sie die in das Feld „Dienste filtern“ **Microsoft Sentinel** ein. Wählen Sie dann in der Liste den Eintrag **Microsoft Sentinel** aus.
 
-5. Wählen Sie auf der Seite „Azure Sentinel“ die Option **Azure Sentinel erstellen** aus.
+5. Wählen Sie auf der Microsoft Sentinel-Seite die Option **Microsoft Sentinel erstellen** aus.
 
-6. Wählen Sie auf der Seite „Azure Sentinel hinzufügen“ die Option **Neuen Arbeitsbereich erstellen** aus.
+6. Wählen Sie unter „Microsoft Sentinel zu einer Arbeitsbereichsseite hinzufügen“ die Option **Neuen Arbeitsbereich erstellen** aus.
 
 7. Geben Sie auf der Registerkarte „Grundlagen“ von „Log Analytics-Arbeitsbereich erstellen“ Folgendes ein:
     1. Abonnement:  **Azure Pass-Förderung**
@@ -48,17 +48,17 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 11. Wenn der neue Arbeitsbereich nicht aufgelistet wird, wählen Sie **Aktualisieren** und dann **Hinzufügen** aus.
 
-12. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „News und Anleitungen zu Azure Sentinel“ | angezeigt.  Beachten Sie die drei auf der Seite „Erste Schritte“ aufgelisteten Schritte.
+12. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Microsoft Sentinel-Seite | mit Neuigkeiten und Leitfäden angezeigt.  Beachten Sie die drei auf der Seite „Erste Schritte“ aufgelisteten Schritte.
 
 13. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-#### Aufgabe 2:  Nachdem Sie die Azure Sentinel-Instanz erstellt haben, möchten Sie sicherstellen, dass Sie über den erforderlichen Zugriff auf die Ressourcen verfügen, die zum Unterstützen von Azure Sentinel bereitgestellt werden.  Bei dieser Aufgabe navigieren Sie zur Seite „Zugriffssteuerung (IAM)“ für die von Ihnen mit der Azure Sentinel-Instanz erstellten Ressourcengruppe, zeigen die verfügbaren Rollen an und weisen sich selbst (MOD-Administrator) die erforderliche Rolle zu. Durch das Zuweisen der Rolle auf der Ressourcengruppenebene wird sichergestellt, dass die Rolle für alle Ressourcen gilt, die zum Unterstützen von Azure Sentinel bereitgestellt werden.
+#### Aufgabe 2:  Nachdem Sie die Microsoft Sentinel-Instanz erstellt haben, sollten Sie sicherstellen, dass Sie über den nötigen Zugriff auf die Ressourcen verfügen, die zur Unterstützung von Microsoft Sentinel bereitgestellt werden.  In dieser Aufgaben rufen Sie die Seite für die Zugriffssteuerung (IAM) für die Ressourcengruppe auf, die Sie mit der Instanz von Microsoft Sentinel erstellt haben, zeigen die verfügbaren Rollen an und weisen sich selbst (MOD-Administrator) die erforderliche Rolle zu. Durch Zuweisen der Rolle auf Ressourcengruppenebene wird sichergestellt, dass die Rolle auf alle Ressourcengruppen angewendet wird, die zur Unterstützung von Microsoft Sentinel bereitgestellt werden.
 
-1. Wählen Sie auf der Seite „Azure Sentinel“ in der oberen linken Ecke der Seite oberhalb des Texts „Azure Sentinel“ die Option **Alle Dienste** aus.
+1. Wählen Sie auf der Microsoft Sentinel-Seite in der oberen linken Ecke der Seite oberhalb von „Microsoft Sentinel“ die Option **Alle Dienste** aus.
 
 2. Geben Sie die Ressourcengruppen in das Feld „Dienste filtern“ ein. Wählen Sie dann in der bereitgestellten Liste den Eintrag **Ressourcengruppen** aus.
 
-3. Wählen Sie auf der Seite „Ressourcengruppen“ die von Ihnen mit Azure Sentinel erstellte Ressourcengruppe aus, nämlich **SC900-ResourceGroup**.
+3. Wählen Sie auf der Seite mit den Ressourcengruppen die Ressourcengruppe aus, die Sie mit Microsoft Sentinel erstellt haben, und zwar **SC900-ResourceGroup**.
 
 4. Wählen Sie auf der Seite „SC900-ResourceGroup“ im linken Navigationsbereich die Option **Zugriffssteuerung (IAM)** aus.
 
@@ -66,7 +66,7 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 6. Wählen Sie auf der Seite „Zugriffssteuerung“ die Option **+ Hinzufügen** und dann **Rollenzuweisung hinzufügen** aus.
 
-7. Das Fenster „Rollenzuweisung hinzufügen“ wird geöffnet.  Wählen Sie den Dropdownpfeil im Feld „Rolle auswählen“ aus, um die verfügbaren Rollen anzuzeigen.  Wählen Sie für dieses Lab **Besitzer** aus.  HINWEIS:  Als bewährte Methode empfiehlt es sich, die niedrigste Berechtigung zuzuweisen, die für die Rolle erforderlich ist.  Überprüfen Sie als Referenz die Berechtigungen in Azure Sentinel:  https://docs.microsoft.com/de-de/azure/sentinel/roles
+7. Das Fenster „Rollenzuweisung hinzufügen“ wird geöffnet.  Wählen Sie den Dropdownpfeil im Feld „Rolle auswählen“ aus, um die verfügbaren Rollen anzuzeigen.  Wählen Sie für dieses Lab **Besitzer** aus.  HINWEIS:  Als bewährte Methode empfiehlt es sich, die niedrigste Berechtigung zuzuweisen, die für die Rolle erforderlich ist.  Überprüfen Sie als Referenz die Berechtigungen in Microsoft Sentinel:  https://docs.microsoft.com/de-de/azure/sentinel/roles
 
 8. Wählen Sie in der angezeigten Liste der Benutzer den Eintrag **MOD-Administrator** aus.
 
@@ -76,13 +76,13 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 11. Kehren Sie zur Seite „Alle Dienste“ von Azure zurück. Wählen Sie dazu in der oberen linken Ecke der Seite oberhalb von „Ressourcengruppen“ die Option **Alle Dienste** aus.
 
-#### Aufgabe 3:  Bei dieser Aufgabe gehen Sie den Prozess zum Herstellen der Verbindung zwischen Azure Sentinel und Ihrer Datenquelle durch, um mit dem Sammeln von Daten zu beginnen. Hinweis: Es kann einige Zeit in Anspruch nehmen, bis der verbundene Status eines Connectors angezeigt wird (~ 30 Minuten, je nach Mandant).
+#### Aufgabe 3:  In diese Aufgabe durchlaufen Sie den Prozess des Verbindens von Microsoft Sentinel mit Ihrer Datenquelle, um mit der Erfassung von Daten zu beginnen. Hinweis: Es kann einige Zeit in Anspruch nehmen, bis der verbundene Status eines Connectors angezeigt wird (~ 30 Minuten, je nach Mandant).
 
-1. Geben Sie auf der Seite „Alle Dienste“ den Text **Azure Sentinel** in das Feld „Dienste filtern“ ein. Wählen Sie dann **Azure Sentinel** aus der Liste mit den Ergebnissen aus. 
+1. Geben Sie die in das Feld „Dienste filtern“ auf der Seite „Alle Dienste“ **Microsoft Sentinel** ein. Wählen Sie dann in der Ergebnisliste den Eintrag **Microsoft Sentinel** aus. 
 
-2. Wählen Sie auf der Seite „Azure Sentinel“ den von Ihnen mit der Azure Sentinel-Instanz erstellten Arbeitsbereich aus, nämlich **SC900-LogAnalytics-workspace**.
+2. Wählen Sie auf der Microsoft Sentinel-Seite den Arbeitsbereich aus, den Sie mit der Instanz von Microsoft Sentinel erstellt haben, und zwar **SC900-LogAnalytics-workspace**.
 
-3. Der erste Schritt mit Azure Sentinel besteht darin, Daten sammeln zu können. Wählen Sie im linken Navigationsbereich die unter der Konfiguration aufgelistete Option **Datenconnectors** aus.
+3. Der erste Schritt besteht darin, mit Microsoft Sentinel Daten zu sammeln. Wählen Sie im linken Navigationsbereich die unter der Konfiguration aufgelistete Option **Datenconnectors** aus.
 
 4. Scrollen Sie auf der Seite „Datenconnectors“ nach unten zum Hauptfenster, um die ausführliche Liste mit den verfügbaren Connectors anzuzeigen. Geben Sie in das Suchfeld der Seite „Datenconnectors“ den Text **Azure** ein. Wählen Sie dann in der Liste den Eintrag **Azure Active Directory** aus.
 
@@ -90,7 +90,7 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 6. Überprüfen Sie auf der Azure Active Directory Connector-Seite die Beschreibung, und beachten Sie den zugehörigen Inhalt, der Arbeitsmappe, Abfragen und Regelvorlagen für Analysen umfasst.  
 
-7. Die Registerkarte „Anweisungen“ im Hauptfenster umfasst die Voraussetzungen für die Integration von Azure Sentinel in Azure Active Directory.   Wählen Sie unter „Konfiguration“ die Option **Anmeldeprotokolle** und dann „Änderungen anwenden“ (es können mehrere Connectors ausgewählt werden) aus.
+7. Die Registerkarte „Anweisungen“ im Hauptfenster liefert die Voraussetzungen für die Integration von Microsoft Sentinel in Azure Active Directory.   Wählen Sie unter „Konfiguration“ die Option **Anmeldeprotokolle** und dann „Änderungen anwenden“ (es können mehrere Connectors ausgewählt werden) aus.
 
 8. Beachten Sie auf der Registerkarte „Nächste Schritte“ die Liste mit den empfohlenen Arbeitsmappen.   Wählen Sie unter „Empfohlene Arbeitsmappen“ die Option **Azure-Anmeldeprotokolle** (es können zusätzliche Arbeitsmappen ausgewählt werden) aus.
 
@@ -98,7 +98,7 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 10. Überprüfen Sie im Fenster „Azure Active Directory-Anmeldeprotokolle“, das geöffnet wird, die Beschreibung, und wählen Sie **Vorlage anzeigen** aus.  Schließen Sie die Vorlage. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.  Wählen Sie unten auf der Seite **Speichern** aus. Wählen Sie dann **OK** aus, um die Arbeitsmappe am Standardspeicherort zu speichern.
 
-11. Wählen Sie in der oberen linken Ecke der Seite „Arbeitsmappe“ oberhalb des Texts „Arbeitsmappen“ die Option **Azure Sentinel** aus. Dadurch gelangen Sie zur Seite „Datenconnectors“ von Azure Sentinel zurück.
+11. Wählen Sie in der oberen linken Ecke der Seite „Arbeitsmappen“ oberhalb von „Arbeitsmappen“ die Option **Microsoft Sentinel** aus. Dadurch gelangen Sie zurück zur Seite mit den Microsoft Sentinel-Datenconnectors.
 
 12. Oben auf der Seite „Datenconnectors“ sollte „1 verbunden“ angezeigt werden, um anzugeben, dass Sie nun mit Azure Active Directory verbunden sind.
 
@@ -112,7 +112,7 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 1. Wählen Sie im linken Navigationsbereich **Analysen** aus.
 
-2. Auf der Seite „Analysen“ werden aktive Regeln („Erweiterte Erkennung von mehrstufigen Angriffen“ ist standardmäßig aktiviert) angezeigt. Außerdem bietet sie Zugriff auf „Regelvorlagen“.  Wählen Sie die Registerkarte **Regelvorlagen** aus.  Beachten Sie die Liste der verfügbaren Vorlagen und die unterschiedlichen Arten zum Filtern der Liste.  Mit den integrierten Analysewarnungen im Azure Sentinel-Arbeitsbereich werden sie sofort über verdächtige Aktivitäten informiert.
+2. Auf der Seite „Analysen“ werden aktive Regeln („Erweiterte Erkennung von mehrstufigen Angriffen“ ist standardmäßig aktiviert) angezeigt. Außerdem bietet sie Zugriff auf „Regelvorlagen“.  Wählen Sie die Registerkarte **Regelvorlagen** aus.  Beachten Sie die Liste der verfügbaren Vorlagen und die unterschiedlichen Arten zum Filtern der Liste.  Über die integrierten Analysebenachrichtigungen innerhalb des Microsoft Sentinel-Arbeitsbereichs werden Sie benachrichtigt, wenn etwas Verdächtiges auftritt.
 
 3. Geben Sie **Azure-Portal** in die Suchleiste ein.  Wählen Sie **Fehlgeschlagene Anmeldeversuche beim Azure-Portal** aus.  
 
@@ -122,7 +122,7 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 6. Auf der Seite „Regellogik festlegen“ definieren Sie die Logik für Ihre neue Analyseregel. Die Vorlage umfasst bereits eine gewisse Logik und vordefinierte Einstellungen.  Scrollen Sie durch die Seite, um die verfügbaren Einstellungen anzuzeigen.  Übernehmen Sie die Standardwerte. Wählen Sie **Weiter: Incidenteinstellungen (Vorschau) >** aus.
 
-7. Mithilfe von „Incidenteinstellungen“ können Azure Sentinel-Warnungen gemeinsam in einen Incident gruppiert werden, der angezeigt werden sollte. Sie können festlegen, ob die durch diese Analyseregel ausgelösten Warnungen Incidents generieren sollen.  Übernehmen Sie die Standardeinstellungen, und wählen Sie **Weiter: Automatisierte Antwort >** aus.
+7. Mit den Vorfallseinstellungen können Microsoft Sentinel-Benachrichtigungen zusammen in einem Vorfall gruppiert werden, der näher betrachtet werden sollte. Sie können festlegen, ob die durch diese Analyseregel ausgelösten Warnungen Incidents generieren sollen.  Übernehmen Sie die Standardeinstellungen, und wählen Sie **Weiter: Automatisierte Antwort >** aus.
 
 8. Beachten Sie auf der Registerkarte „Automatisierte Antwort“, wie Sie ein Playbook zum Automatisieren der Antwort hinzufügen können.  Ebenso können Sie eine Incidentautomatisierungsregel erstellen.  Wählen Sie **+ Neu hinzufügen** unter der Option für die Incidentautomatisierung aus.  Es wird ein Fenster zum Erstellen einer neuen Automatisierungsregel geöffnet.  Die von Ihnen auf dieser Seite erstellten Automatisierungsregeln werden durch Ihre erstellte Analyseregel ausgelöst. Beachten Sie, dass Sie Bedingungen hinzufügen und Aktionen für die Regel festlegen können.   Wählen Sie **Abbrechen** aus, um das Fenster zu schließen.
 
@@ -141,13 +141,13 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 4. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 
-#### Aufgabe 6:  Löschen Sie die Azure Sentinel-Ressourcengruppe.  Azure Sentinel wird auf Grundlage der Datenmenge abgerechnet, die zur Analyse in Azure Sentinel erfasst wurde. Obwohl die im Rahmen dieses Labs erfasste Datenmenge gering ist, sollten Sie die Azure Sentinel-Ressourcengruppe löschen, nachdem Sie die Funktionen von Azure Sentinel erkundet haben.
+#### Aufgabe 6:  Löschen Sie die Microsoft Sentinel-Ressourcengruppe.  Die Rechnung für Microsoft Sentinel wird auf Basis des Volumens erfasster Daten für die Analyse in Microsoft Sentinel ausgestellt. Die Menge erfasster Daten als Ergebnis dieses Labs ist zwar minimal, es wird aber empfohlen, dass Sie die Microsoft Sentinel-Ressourcengruppe löschen, wenn Sie mit dem Erkunden der Features von Funktionen von Microsoft Sentinel fertig sind.
 
-1. Wählen Sie auf der Seite „Azure Sentinel“ in der oberen linken Ecke der Seite oberhalb des Texts „Azure Sentinel“ die Option **Alle Dienste** aus.
+1. Wählen Sie auf der Microsoft Sentinel-Seite in der oberen linken Ecke der Seite oberhalb von „Microsoft Sentinel“ die Option **Alle Dienste** aus.
 
 2. Geben Sie die Ressourcengruppen in das Feld „Dienste filtern“ ein. Wählen Sie dann in der bereitgestellten Liste den Eintrag **Ressourcengruppen** aus.
 
-3. Wählen Sie auf der Seite „Ressourcengruppen“ die von Ihnen mit Azure Sentinel erstellte Ressourcengruppe aus, nämlich **SC900-ResourceGroup**.
+3. Wählen Sie auf der Seite mit den Ressourcengruppen die Ressourcengruppe aus, die Sie mit Microsoft Sentinel erstellt haben, und zwar **SC900-ResourceGroup**.
 
 4. Wählen Sie im oberen mittleren Bereich der Seite die Option **Ressourcengruppe löschen** aus.  Überprüfen Sie die Warnung.  Geben Sie den Namen der Ressourcengruppe **SC900-ResourceGroup** ein. Wählen Sie dann unten auf der Seite **Löschen** aus.  Es kann mehrere Minuten dauern, bis die Ressourcengruppe gelöscht ist.
 
@@ -156,4 +156,4 @@ In diesem Lab gehen Sie den Prozess der Erstellung einer Azure Sentinel-Instanz 
 
 #### Überprüfung
 
-In diesem Lab sind Sie den Prozess der Erstellung einer Azure Sentinel-Instanz durchgegangen.  Sie haben zudem die Berechtigungen eingerichtet, um den Zugriff auf die der Azure Sentinel-Instanz zugeordneten Ressourcen sicherzustellen.  Nach der Erstellung Ihrer Azure Sentinel-Instanz sind Sie die Schritte zum Herstellen der Verbindung zwischen Sentinel und Ihren Datenquellen durchgegangen. Außerdem haben Sie erfahren, wie integrierte Analyseregeln verwendet werden, um über verdächtige Aktivitäten benachrichtigt zu werden. Als Letztes haben Sie die Automatisierungsfunktion erkundet. Abgeschlossen haben Sie das Lab, indem Sie die Ressourcengruppe gelöscht haben, die der von Ihnen erstellten Azure Sentinel-Instanz zugeordnet ist.
+In diesem Lab haben Sie den Prozess des Erstellens einer Microsoft Sentinel-Instanz durchlaufen.  Sie haben auch die Berechtigungen eingerichtet, um Zugriff auf die Ressourcen sicherzustellen, die mit Ihrer Instanz von Microsoft Sentinel verknüpft sind.  Nachdem Ihre Microsoft Sentinel-Instanz erstellt wurde, haben Sie die Schritte zum Verbinden von Microsoft Sentinel mit Datenquellen und die Verwendung integrierter Analyseregeln durchlaufen, damit Sie über alle verdächtigen Aktivitäten benachrichtigt werden. Als letzten Schritt haben Sie die Automatisierungsfunktion erkundet. Sie haben das Lab abgeschlossen, indem Sie die mit der Instanz von Microsoft Sentinel verknüpfte Ressourcengruppe, die Sie erstellt haben, gelöscht haben.

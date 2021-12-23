@@ -47,8 +47,6 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 
 1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft 365 Compliance Center wird auf einer neuen Browserseite geöffnet.  
 
-1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Compliance Center **Alle anzeigen** aus.
-
 1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ die Option **Überwachen** aus.  Hinweis: Auf die Überwachungsfunktion kann auch über die Homepage von Microsoft 365 Defender (zuvor als Microsoft 365 Security Center bezeichnet) zugegriffen werden.
 
 1. Stellen Sie sicher, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.

@@ -1,14 +1,14 @@
 ---
 Demo:
-    title: 'Microsoft Cloud App Security'
+    title: 'Microsoft Defender for Cloud Apps'
     module: 'Modul 3, Lektion 4: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben des Bedrohungsschutzes mit Microsoft 365 Defender'
 ---
 
 
-# Demo: Microsoft Cloud App Security
+# Demo: Microsoft Defender for Cloud Apps
 
 ### Demoszenario
-In dieser Demo zeigen Sie die Funktionen von Microsoft Cloud App Security.  Sie führen den Kursteilnehmer durch die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Cloud App Security verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt.  
+In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie führen den Lernenden durch die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien.  Hinweis:  Eine Organisation muss eine Lizenz besitzen, um Microsoft Defender für Cloud-Apps, einen benutzerbasierten Abonnementdienst, zu verwenden.  
 
 #### Teil 1 der Demo: Erkunden Sie Cloud Discovery.
 
@@ -22,7 +22,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Cloud App Security.  Sie 
 
 1. Wählen Sie unten im linken Navigationsbereich der Seite „Microsoft 365 Defender“ die Option **Weitere Ressourcen** aus.
 
-1. Wählen Sie auf der Karte **Microsoft Cloud App Security** die Option **Öffnen** aus.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
+1. Wählen Sie auf der Karte **Microsoft Defender für Cloud-Apps** die Option **Öffnen**.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
 
 1. Wählen Sie im linken Navigationsbereich **Ermitteln** aus. Wählen Sie dann im Dropdown das Dashboard **Cloud Discovery** aus.  Das Dashboard enthält eine Übersicht der ermittelten Apps, App-Kategorien, Risikostufen und mehr.  
 
@@ -63,7 +63,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Cloud App Security.  Sie 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 
-#### Teil 3 der Demo: Bei dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Cloud App Security.
+#### Teil 3 der Demo: In dieser Aufgaben erkunden Sie die Richtlinien und Warnungsseiten in Microsoft Defender für Cloud-Apps.
 
 1. Wählen Sie im linken Navigationsbereich unter „Steuerung“ die Option **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen über die Anzahl der durch die Richtlinie generierten Warnungen, über den Schweregrad usw. Durch die Auswahl eines Zeilenelements werden ausführlichere Informationen über die Richtlinie bereitgestellt. Wählen Sie ein Element aus der Liste aus, beispielsweise **Riskante Anmeldung**.  
 
@@ -72,4 +72,4 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Cloud App Security.  Sie 
 1. Schließen Sie das Browserfenster.
 
 #### Überprüfung
-In dieser Demo haben Sie die Funktionen von Microsoft Cloud App Security gezeigt.  Sie haben die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien gezeigt.
+In dieser Demo haben Sie die Funktionen von Microsoft Defender für Cloud-Apps gezeigt.  Sie haben die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien gezeigt.
