@@ -42,7 +42,7 @@ In diesem Lab durchlaufen Sie Microsoft Defender für Cloud und erfahren, wie di
     1. Schließen Sie die Empfehlungsseite mit dem **X** oben rechts auf dem Bildschirm, um zur Übersichtsseite zurückzukehren.
 
 1. Wählen Sie auf der Hauptseite **Einhaltung gesetzlicher Bestimmungen** aus. Auf der Seite „Einhaltung gesetzlicher Bestimmungen“ finden Sie eine Liste mit Compliancekontrollen.  Unter jeder Kontrolle befinden sich eine Reihe von Bewertungen, die auf dem Azure-Sicherheitsvergleichstest basieren. Dieser liefert Empfehlungen dazu, wie Sie Ihre Cloudlösungen auf Azure schützen können.
-    1. Wählen Sie **IM** aus.** Identitätsmanagement**, und wählen Sie dann **IM-6 Sichere Authentifizierungskontrollen verwenden** aus.  In der Liste werden Aktionen zur Verbesserung der Compliancesituation aufgeführt, für die der Kunde verantwortlich ist.
+    1. Wählen Sie **IM** aus. **Identitätsmanagement**, und wählen Sie dann **IM-6 Sichere Authentifizierungskontrollen verwenden** aus.  In der Liste werden Aktionen zur Verbesserung der Compliancesituation aufgeführt, für die der Kunde verantwortlich ist.
     1. Wählen Sie das **X** oben rechts auf dem Bildschirm aus, um die Seite zu schließen und zur Übersichtsseite von Microsoft Defender für Cloud zurückzukehren. 
     1. Lassen Sie Übersichtsseite von Microsoft Defender für Cloud geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
