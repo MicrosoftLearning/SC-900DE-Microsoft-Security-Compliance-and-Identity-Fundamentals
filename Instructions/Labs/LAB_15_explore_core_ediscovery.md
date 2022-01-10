@@ -25,13 +25,13 @@ In diesem Lab gehen Sie die zum Einrichten von Core eDiscovery erforderlichen Sc
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite des Microsoft 365 Defender-Portals wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft 365 Compliance Center wird auf einer neuen Browserseite geöffnet.  
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft 365 Defender-Portals die Option **Berechtigungen und Rollen** aus.  Es kann sein, dass Sie nach unten scrollen müssen, damit diese Option angezeigt wird.
+1. Wählen Sie im linken Navigationsbereich **Berechtigungen** aus. 
 
-1. Wählen Sie auf der Seite „Berechtigungen und Rollen“ unter **Rollen für E-Mail und Zusammenarbeit** die Option **Rollen** aus.
+1. Wählen Sie auf der Seite „Berechtigungen und Rollen“ im Compliance Center **Rollen** aus.
 
-1. Geben Sie **eDiscovery** in die Suchleiste ein. Wählen Sie dann das Suchsymbol (Lupe) aus.  Wählen Sie **eDiscovery-Manager** aus.
+1. Geben Sie **eDiscovery** in das Suchfeld ein. Wählen Sie dann das Suchsymbol (Lupe) aus.  Wählen Sie **eDiscovery-Manager** aus.
 
 1. Beachten Sie im Fenster, das geöffnet wird, die zwei Untergruppen: „eDiscovery-Manager“ und „eDiscovery-Administrator“.  Lesen Sie die jeweilige Beschreibung.  In diesem Lab fügen wir der Untergruppe „eDiscovery-Administrator“ Mitglieder hinzu. Wählen Sie **Bearbeiten** neben „eDiscovery-Administrator“ aus.  Als allgemein bewährte Methode empfiehlt es sich, Benutzern die niedrigste Berechtigung zuzuweisen, die für ihre Rolle erforderlich ist.
 
@@ -45,15 +45,11 @@ In diesem Lab gehen Sie die zum Einrichten von Core eDiscovery erforderlichen Sc
 
 1. Wählen Sie unten im Fenster „eDiscovery“ die Option **Schließen** aus.
 
-1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie in einer nachfolgenden Aufgabe dorthin zurückkehren werden.
+1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 #### Aufgabe 2:  Bei dieser Aufgabe erstellen Sie als ein eDiscovery-Administrator (der MOD-Administrator ist ein eDiscovery-Administrator) einen Fall, um mit der Verwendung von Core eDiscovery zu beginnen.
 
-1. Öffnen Sie in Ihrem Browser die Registerkarte „Microsoft 365 Admin Center“.
-
-1. Wählen Sie im linken Navigationsbereich unter „Admin Center“ die Option **Compliance** aus.
-
-1. Sie befinden sich nun in Microsoft 365 Compliance Center. Wählen Sie im linken Navigationsbereich **Alle anzeigen** aus.
+1. Sie sollten sich immer noch auf der Seite „Rollen“ im Compliance Center befinden. Wenn Sie die Browserregisterkarte aus der vorherigen Aufgabe geschlossen haben, öffnen Sie eine neue Browserregisterkarte und geben Sie **compliance.microsoft.com** ein.
 
 1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ die Optionen **eDiscovery** und **Core** aus.
 
@@ -61,7 +57,7 @@ In diesem Lab gehen Sie die zum Einrichten von Core eDiscovery erforderlichen Sc
 
 1. Geben Sie in das Fenster „Neuer Fall“ den Fallnamen **SC900-Testfall** ein. Wählen Sie dann unten auf der Seite **Speichern** aus.
 
-1. Der Fall sollte nun in der Liste angezeigt werden. 
+1. Der Fall sollte nun in der Liste angezeigt werden.
 
 1. Da Sie den Fall erstellt haben und über eDiscovery-Administrator-Berechtigungen verfügen, können Sie ihn bearbeiten.  
 
@@ -77,7 +73,7 @@ In diesem Lab gehen Sie die zum Einrichten von Core eDiscovery erforderlichen Sc
 
 1. Geben Sie im Feld „Name“ den Text **Testaufbewahrung** ein, und wählen Sie dann „Weiter“ aus.
 
-1. Wählen Sie auf der Seite „Speicherorte auswählen“ den neben „Exchange-E-Mail“ befindlichen Umschalter aus, um den Status auf **Ein** festzulegen, wählen Sie **Benutzer, Gruppen oder Teams auswählen** aus.  Geben Sie **Adele** in das Suchfeld ein, und drücken Sie dann die EINGABETASTE auf Ihrer Tastatur. Wählen Sie in den Suchergebnissen den Eintrag **Adele Vance** aus. Wählen Sie dann „Auswählen“ und **Fertig** aus.
+1. Wählen Sie auf der Seite „Speicherorte auswählen“ den neben **Exchange-Postfächer** befindlichen Umschalter aus, um den Status auf **Ein** festzulegen, und wählen Sie **Benutzer, Gruppen oder Teams auswählen** aus.  Geben Sie **Adele** in das Suchfeld ein, und drücken Sie dann die EINGABETASTE auf Ihrer Tastatur. Wählen Sie in den Suchergebnissen den Eintrag **Adele Vance** aus. Wählen Sie dann „Auswählen“ und **Fertig** aus.
 
 1. Wählen Sie auf der Seite „Speicherorte auswählen“ die Option **Weiter** aus.  Aus Zweckmäßigkeitsgründen sind im Lab bei dieser Aufbewahrung keine anderen Speicherorte enthalten.
 
@@ -97,7 +93,7 @@ In diesem Lab gehen Sie die zum Einrichten von Core eDiscovery erforderlichen Sc
 
 1. Geben Sie in das Feld „Name“ den Text **Testaufbewahrung – Vertriebssuche** ein. Wählen Sie dann unten auf der Seite **Weiter** aus.
 
-1. Wählen Sie auf der Seite „Speicherorte auswählen“ den neben „Exchange-E-Mail“ befindlichen Umschalter aus, um den Status auf **Ein** festzulegen, wählen Sie **Benutzer, Gruppen oder Teams auswählen** aus.  Geben Sie **Adele** in das Suchfeld ein, und drücken Sie dann die EINGABETASTE auf Ihrer Tastatur. Wählen Sie in den Suchergebnissen den Eintrag **Adele Vance** aus. Wählen Sie **Fertig** und dann **Weiter** aus.  Bei dieser Suche sind keine anderen Speicherorte enthalten.
+1. Wählen Sie auf der Seite „Speicherorte auswählen“ den neben **Exchange-Postfächer** befindlichen Umschalter aus, um den Status auf **Ein** festzulegen, und wählen Sie **Benutzer, Gruppen oder Teams auswählen** aus.  Geben Sie **Adele** in das Suchfeld ein, und drücken Sie dann die EINGABETASTE auf Ihrer Tastatur. Wählen Sie in den Suchergebnissen den Eintrag **Adele Vance** aus. Wählen Sie **Fertig** und dann **Weiter** aus.  Bei dieser Suche sind keine anderen Speicherorte enthalten.
 
 1. Auf der Seite „Abfragebedingungen“ können Sie eine Suche erstellen, die auf bestimmten erfüllten Schlüsselwörtern oder Bedingungen basiert. Geben Sie in das Feld „Schlüsselwort“ den Text **Vertrieb** ein, und wählen Sie **Weiter** aus.
 

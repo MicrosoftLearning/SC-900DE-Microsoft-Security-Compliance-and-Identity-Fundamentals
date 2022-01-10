@@ -8,7 +8,7 @@ lab:
 # Lab: Erkunden von Microsoft Defender for Cloud Apps
 
 ## Labszenario
-In diesem Lab erkunden Sie die Funktionen von Microsoft Defender for Cloud Apps.  Sie gehen die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien durch.  Hinweis:  Eine Organisation muss eine Lizenz besitzen, um Microsoft Defender for Cloud Apps, einen benutzerbasierten Abonnementdienst, zu verwenden. 
+In diesem Lab erkunden Sie die Funktionen von Microsoft Defender for Cloud Apps.  Sie gehen die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien durch.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender for Cloud Apps verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt. 
 
 **Geschätzte Dauer**: 15–20 Minuten
 
@@ -27,7 +27,7 @@ In diesem Lab erkunden Sie die Funktionen von Microsoft Defender for Cloud Apps.
 
 1. Wählen Sie unten im linken Navigationsbereich der Seite „Microsoft 365 Defender“ die Option **Weitere Ressourcen** aus.
 
-1. Wählen Sie auf der Karte **Microsoft Defender for Cloud Apps** die Option **Öffnen**.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
+1. Wählen Sie auf der Karte **Microsoft Defender for Cloud Apps** die Option **Öffnen** aus.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
 
 1. Wählen Sie im linken Navigationsbereich **Ermitteln** aus. Wählen Sie dann im Dropdown das Dashboard **Cloud Discovery** aus.  Das Dashboard enthält eine Übersicht der ermittelten Apps, App-Kategorien, Risikostufen und mehr.  
     1. Wählen Sie oben auf der Seite „Cloud Discovery“ die Registerkarte **Ermittelte Apps** aus.  Das Fenster „Ermittelte Apps“ enthält eine ausführliche Ansicht der ermittelten Apps, einschließlich der Risikobewertung, des Datenverkehrs, der Anzahl der Benutzer und mehr.

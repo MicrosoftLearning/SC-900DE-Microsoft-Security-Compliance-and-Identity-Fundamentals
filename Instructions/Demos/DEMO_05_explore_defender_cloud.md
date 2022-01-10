@@ -18,7 +18,7 @@ In dieser Demo durchlaufen Sie Microsoft Defender für Cloud und zeigen, wie Azu
 
 1. Beachten Sie die auf der Übersichtsseite von Microsoft Defender für Cloud verfügbaren Informationen.  Hinweis: Möglicherweise wird oben auf der Seite ein blaues Informationsfeld angezeigt, das darauf hinweist, dass Sie möglicherweise nicht alle Informationen sehen.  Wählen Sie es nicht aus (die Verarbeitung kann bis zu 15 Minuten dauern und ist für diese Demo nicht erforderlich).
 
-1. Oben auf der Seite finden Sie Informationen wie die Anzahl der Azure-Abonnements, die Anzahl der bewerteten Ressourcen, die Anzahl der aktiven Empfehlungen und alle Sicherheitswarnungen.  In der Mitte der Seite befinden sich Karten für die Sicherheitsbewertung, die Einhaltung gesetzlicher Bestimmungen, Insights, Azure Defender und mehr.  
+1. Oben auf der Seite finden Sie Informationen wie die Anzahl der Azure-Abonnements, die Anzahl der bewerteten Ressourcen, die Anzahl der aktiven Empfehlungen und alle Sicherheitswarnungen.  In der Mitte der Seite befinden sich Karten für die Sicherheitsbewertung, die Einhaltung gesetzlicher Bestimmungen, Insights und mehr.  
 
 1. Wählen Sie oben auf der Seite die Option **Bewertete Ressourcen** aus.  (Beachten Sie, dass dies der Auswahl von „Bestand“ aus dem linken Navigationsbereich der Startseite von Microsoft Defender für Cloud entspricht.)
     1. Dadurch gelangen Sie zur Seite **Inventar**, auf der Ihr Azure Pass-Abonnement angezeigt wird.  Wählen Sie **Azure Pass-Förderung** aus.
@@ -49,3 +49,4 @@ In dieser Demo durchlaufen Sie Microsoft Defender für Cloud und zeigen, wie Azu
 ## Überprüfung
 
 In dieser Demo haben Sie Microsoft Defender für Cloud durchlaufen und gezeigt, wie die Azure-Sicherheitsbewertung verwendet werden kann, um die Sicherheitslage einer Organisation zu verbessern.
+
