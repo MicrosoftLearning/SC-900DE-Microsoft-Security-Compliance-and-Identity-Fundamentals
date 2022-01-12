@@ -27,7 +27,7 @@ In diesem Lab durchlaufen Sie Microsoft Defender für Cloud und erfahren, wie di
     1. Weisen Sie sich selbst die erforderliche Roll zu, um sicherzustellen, dass Sie über die mandantenweite Sichtbarkeit verfügen.  Wählen Sie **Sicherheitsadministrator** aus. Wählen Sie dann unten auf der Seite **Zugriff anfordern** aus.
     1. Wahrscheinlich wird die Meldung „Stammverwaltungsgruppe ist nicht vorhanden“ angezeigt.  Laut Beschreibung wird die Gruppe vom System für Sie erstellt.  Dies kann bis zu 15 Minuten dauern (geht aber in der Regel schneller).  Nachdem der Zugriff gewährt wurde, wählen Sie in der linken oberen Ecke der Seite neben dem Text „Berechtigungen abrufen“ die Option **Microsoft Defender für Cloud** aus, und aktualisieren Sie dann die Übersichtsseite von Microsoft Defender für Cloud.
 
-1. Oben auf der Seite finden Sie Informationen wie die Anzahl der Azure-Abonnements, die Anzahl der bewerteten Ressourcen, die Anzahl der aktiven Empfehlungen und alle Sicherheitswarnungen.  In der Mitte der Seite befinden sich Karten für die Sicherheitsbewertung, die Einhaltung gesetzlicher Bestimmungen, Insights, Azure Defender und mehr.  
+1. Oben auf der Seite finden Sie Informationen wie die Anzahl der Azure-Abonnements, die Anzahl der bewerteten Ressourcen, die Anzahl der aktiven Empfehlungen und alle Sicherheitswarnungen.  In der Mitte der Seite befinden sich Karten für die Sicherheitsbewertung, die Einhaltung gesetzlicher Bestimmungen, Insights und mehr.  
 
 1. Wählen Sie oben auf der Seite die Option **Bewertete Ressourcen** aus.  (Beachten Sie, dass dies der Auswahl von „Bestand“ aus dem linken Navigationsbereich der Startseite von Microsoft Defender für Cloud entspricht.)
     1. Dadurch gelangen Sie zur Seite **Inventar**, auf der Ihr Azure Pass-Abonnement angezeigt wird.  Wählen Sie **Azure Pass-Förderung** aus.
@@ -74,3 +74,4 @@ In diesem Lab durchlaufen Sie Microsoft Defender für Cloud und erfahren, wie di
 
 #### Überprüfung
 In diesem Lab haben Sie Microsoft Defender für Cloud erkundet und erfahren, wie die Azure-Sicherheitsbewertung verwendet werden kann, um die Sicherheitslage Ihrer Organisation zu verbessern.
+
